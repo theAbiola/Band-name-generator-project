@@ -25,6 +25,7 @@ app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
 
+//array for data
 const adj = [
   "abandoned",
   "able",
