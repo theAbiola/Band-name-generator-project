@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 app.post("/submit", (req, res) => {
   let randomAdjective = adj[Math.round(adj.length * Math.random())];
 
-  let randomNoun = noun[Math.round(noun.length * Math.random())];
+  let randomNoun = noun[Math.round(noun.length * Math.random())]; //get random noun
 
   let bandName = `${randomAdjective} ${randomNoun}`;
 
